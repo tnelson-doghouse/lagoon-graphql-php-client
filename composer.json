@@ -21,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Lagoon\\": "lib/php/"
+			"Lagoon\\": "lib/php/Lagoon/"
 		}
 	}
 }
