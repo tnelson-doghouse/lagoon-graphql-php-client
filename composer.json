@@ -1,0 +1,27 @@
+{
+	"name": "tnelson-doghouse/lagoon-graphql-php-client",
+	"description": "PHP interface for Lagoon (using GraphQL)",
+	"type": "library",
+	"keywords": [
+		"graphql",
+		"graph-ql",
+		"client",
+		"php",
+		"lagoon",
+		"sdk"
+	],
+	"authors": [
+		{
+			"name": "Timothy Nelson",
+			"email": "tnelson@doghouse.agency"
+		}
+	],
+	"require": {
+		"gmostafa/php-graphql-oqm": "^1.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Lagoon\\": "lib/php/"
+		}
+	}
+}
